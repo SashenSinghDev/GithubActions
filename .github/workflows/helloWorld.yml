@@ -1,5 +1,10 @@
 name: hello-world
-on: push
+on: 
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Random Input'
+        required: true
 jobs:
   my-job:
     runs-on: self-hosted
