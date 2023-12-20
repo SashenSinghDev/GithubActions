@@ -1,4 +1,4 @@
-name: hello-world
+name: create-PR
 on: 
   push
   
