@@ -1,6 +1,6 @@
 name: create-PR
 on: 
-  push
+  workflow_dispatch
   
 jobs:
   my-job:
